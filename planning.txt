@@ -1,0 +1,18 @@
+Planning our BookMyShow thing
+
+<> We need resusable carousal
+-> we need hero carousal
+-> we need common carousal
+-> we need cast crew small carousal
+
+<> Pages
+-> Home Page
+-> Invidual Movie Page
+-> Categories Page(genere)
+-> Razorpay Payment Gateway
+
+<> Building
+-> layouts
+-> routes
+-> Pages
+-> components
