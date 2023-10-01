@@ -40,8 +40,9 @@ const Navlg = () => {
     return(
         <>
         <div className="flex items-center w-full justify-evenly ml-10 mr-10">
-            <div className="flex gap-3 px-6 py-2">
-                <h3 className="text-white font-bold text-xl">bookMyshow</h3>
+            <div className="flex gap-3 px-6">
+                <img className="h-9 w-34 max-w-lg" src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="logo" />
+                {/* <h3 className="text-white font-bold text-xl">bookMyshow</h3> */}
             </div>
             <div className="flex gap-3 intems-center bg-white px-3 py-1 rounded-md w-full">
                 <BiSearch className="h-7"/>
