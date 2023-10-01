@@ -26,8 +26,8 @@ const HeroCarausal = () => {
         <>
         <HeroSlider {...settings}>
             {images.map((image)=>(
-                <div className="w-20 h-80">
-                    <img src={image} alt="test-i" className="w-full h-full" />
+                <div className="w-20 h-96 px-2 py-3">
+                    <img src={image} alt="test-i" className="w-full h-full rounded-md" />
                 </div>
             ))}
         </HeroSlider>
