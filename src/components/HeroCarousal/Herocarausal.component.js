@@ -29,6 +29,7 @@ const HeroCarausal = () => {
     "https://www.tallengestore.com/cdn/shop/products/Movie_Poster_Art_-_Deadpool_-_Sweet_-_Tallenge_Hollywood_Poster_Collection_0a7be87c-ba79-4532-8db4-fc5ef177a4b1.jpg?v=1578045040"];
     return (
         <>
+        <div className="bg-gray-100">
         <HeroSlider {...settings}>
             {images.map((image)=>(
                 <div className="w-20 h-96 px-2 py-3">
@@ -36,7 +37,7 @@ const HeroCarausal = () => {
                 </div>
             ))}
         </HeroSlider>
-        
+        </div>
         </>
     );
 };
