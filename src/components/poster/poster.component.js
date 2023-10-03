@@ -3,7 +3,7 @@ import React from "react";
 const Poster = (props) => {
     return (
         <>
-        <div className="h-full px-4">
+        <div className="h-full px-4 cursor-pointer">
             <div>
                 <img src={props.src} alt="premiereImage" className="w-full h-full rounded-md"/>
             </div>
@@ -14,8 +14,8 @@ const Poster = (props) => {
                 {props.title}
             </h3>
 
-            <p className={`text-sm font-bold ${
-                props.isDark ? "text-white" : "text-gray-700"
+            <p className={`text-sm ${
+                props.isDark ? "text-white" : "text-gray-500"
             }`}>
                 {props.subtitle}
             </p>
