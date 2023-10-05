@@ -2,7 +2,7 @@ import React from "react";
 import HeroSlider from "react-slick";
 
 //import arrow components
-import { PrevArrow,NextArrow } from "./arrows.component";
+// import { PrevArrow,NextArrow } from "./arrows.component";
 
 // Import css files
 import "slick-carousel/slick/slick.css";
@@ -18,8 +18,8 @@ const HeroCarausal = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />
+        // prevArrow: <PrevArrow />,
+        // nextArrow: <NextArrow />
     };
     const images = ["https://rukminim1.flixcart.com/image/850/1000/k77xx8w0/poster/c/g/t/medium-the-shawshank-redemption-movie-poster-for-room-with-gloss-original-imafphnwmxjkvfjf.jpeg?q=20",
     "https://anniehaydesign.weebly.com/uploads/9/5/4/6/95469676/landscape-poster-2_orig.jpg",

@@ -19,7 +19,10 @@ module.exports = {
           800: '#1c2132',
           900: '#080b17',
         }
-      }
+      },
+      backgroundImage: {
+          'bgImage':"url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/jawan-et00330424-1693892482.jpg')"
+      },
     },
   },
   plugins: [],
