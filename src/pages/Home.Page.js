@@ -1,4 +1,6 @@
 import React from "react";
+
+//components
 import EntertainmentCardSlider from "../components/Entertainment/EntertainmentCard.component";
 import Premiere from "../components/premiere/premiere.component";
 import RecommendedMovies from "../components/Recomended Movies/recomendedmovies.component";

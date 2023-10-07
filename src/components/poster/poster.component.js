@@ -1,6 +1,7 @@
 import React from "react";
 
 const Poster = (props) => {
+
     return (
         <>
         <div className="h-full px-4 cursor-pointer">
