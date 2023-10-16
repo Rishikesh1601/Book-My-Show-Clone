@@ -4,6 +4,7 @@ const Poster = (props) => {
 
     return (
         <>
+        <a href={props.onclick} className="h-full px-4 cursor-pointer" target="_blank" rel="noopener noreferrer">
         <div className="h-full px-4 cursor-pointer">
             <div>
                 <img src={props.src} alt="premiereImage" className="w-full h-full rounded-md"/>
@@ -21,6 +22,7 @@ const Poster = (props) => {
                 {props.subtitle}
             </p>
         </div>
+        </a>
         </>
     )
 }

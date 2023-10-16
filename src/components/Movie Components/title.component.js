@@ -1,6 +1,23 @@
 import React from "react";
 import {BsFillStarFill} from "react-icons/bs";
 
+const launchRazorPay = () => {
+    let options = {
+        key: "rzp_test_GDng7vrQm7KNlf",
+        amount: 10000,
+        currency: "INR",
+        name: "BMS Clone",
+        description: "Movie Purchase",
+        image: "https://in.bmscdn.com/webin/common/icons/logo.svg",
+        handler: () => {
+            alert("Payment Done")
+        },
+        theme: {color: "#c4242d"}
+    };
+
+    let rzp = new window.Razorpay(options)
+    rzp.open();
+}
 
 const MovieTitle = () => {
     return (
@@ -43,7 +60,7 @@ const MovieTitle = () => {
                     <h1 className="text-sm text-white py-4 font-bold">2h 49m • Action,Thriller • UA • 7 Sep, 2023</h1>
                 </div>
                 <div>
-                    <button className="bg-red-500 text-white font-bold text-sm rounded-md px-12 py-2">Book tickets</button>
+                    <button onClick={launchRazorPay} className="bg-red-500 text-white font-bold text-sm rounded-md px-12 py-2">Book tickets</button>
                 </div>
             </div>
         </div>

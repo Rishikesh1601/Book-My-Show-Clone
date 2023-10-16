@@ -1,8 +1,10 @@
+
 import React from "react";
 // import {BsFillStarFill} from "react-icons/bs";
 import MovieTitle from "../components/Movie Components/title.component";
 import Cast from "../components/Movie Components/cast.component";
 import Crew from "../components/Movie Components/crew.component";
+
 
 const Movie = () => {
     return (
